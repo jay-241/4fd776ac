@@ -1,0 +1,26 @@
+.archive-all-calls {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    background-color: #f8f8f8; /* Adjust background to match your design */
+    border-bottom: 1px solid #ccc;
+}
+
+.archive-icon {
+    font-size: 1.5rem;
+    color: #666;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.archive-text {
+    font-size: 1rem;
+    color: #666;
+    cursor: pointer;
+}
+
+.archive-all-calls:hover .archive-icon,
+.archive-all-calls:hover .archive-text {
+    color: #333; /* Darken text/icon on hover for better interaction feedback */
+}

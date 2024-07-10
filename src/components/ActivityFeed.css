@@ -1,0 +1,91 @@
+.activity-feed {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #FFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.activity-feed h1 {
+    color: #333;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.call-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.avatar {
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+
+.call-details {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caller-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    color: #333;
+}
+
+.call-action {
+    color: #AAA;
+    font-size: 0.9rem;
+    padding-top: 5px;
+}
+
+.call-meta {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.date-separator {
+    color: #AAA;
+    font-size: 0.9rem;
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.call-in-icon, .call-out-icon, .missed-call-icon {
+    margin-left: 10px;
+}
+
+.call-in-icon {
+    color: #2E8B57;
+}
+
+.call-out-icon {
+    color: #1E90FF;
+}
+
+.missed-call-icon {
+    color: #FF6347;
+}
+
+.activity-archived {
+    opacity: 0.5;
+}
